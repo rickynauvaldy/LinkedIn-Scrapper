@@ -15,11 +15,26 @@ Pulling data from LinkedIn as the job recruitment platform using a scraping meth
 2.	Job Posting Time (23 hours ago, 1 minute ago, etc)
 3.	Number of applicants
 4.	Seniority level  (Entry level/Associate/Mid-senior level)
-5.	Size of employee
+5.	(Currently Not available) Size of employee
 6.	Company industry
 7.	Detail description (job desc, job req, benefit, etc)
 8.	Employment type
 9.	Job Function
+
+## Scrapping Flow
+- Input keywords
+- Prepare dataframe for all keywords data
+- For each keyword, do the following:
+1. update url to use the keyword provided
+2. allow Selenium to crawl
+3. scroll down for all available jobs (as it's only show the first 20 data if not scrolled)
+4. get all 'jobs-search-result' xml
+5. for each result, get all the required features (company name, job posting time, number of applicants, seniority level, industry, description, employment type, job function)
+6. in some cases, there exist different formatting that needed to be handled differently
+7. create a dataframe for the keyword
+8. export to csv per keyword
+9. concat with the all keywords data dataframe
+- export to cssv all keywords
 
 ## Limitation
 - Tested only when LinkedIn is not logged in

@@ -183,14 +183,14 @@ for keyword in keywords:
         # job description
         jobdesc_xpath = '/html/body/main/section/div[2]/section[2]/div'
         job_descs = driver.find_element_by_xpath(jobdesc_xpath).text
-        # re-get when there exist "compesation"
+        # re-get when there exist "compensation"
         if "Base pay range" in job_descs:
             jobdesc_xpath = '/html/body/main/section/div[2]/section[3]/div'
             job_descs = driver.find_element_by_xpath(jobdesc_xpath).text
         job_desc.append(job_descs)
         
         # Seniority level
-        # try-except when there exist "compesation"
+        # try-except when there exist "compensation"
         seniority_xpath = '/html/body/main/section/div[2]/section[2]/ul/li[1]'
         try:
             seniority = driver.find_element_by_xpath(seniority_xpath).text.splitlines(0)[1]
@@ -200,7 +200,7 @@ for keyword in keywords:
         level.append(seniority)
         
         # Employment type
-        # try-except when there exist "compesation"
+        # try-except when there exist "compensation"
         type_xpath = '/html/body/main/section/div[2]/section[2]/ul/li[2]'
         try:
             employment_type = driver.find_element_by_xpath(type_xpath).text.splitlines(0)[1]
@@ -211,7 +211,7 @@ for keyword in keywords:
         emp_type.append(employment_type)
         
         # Job function
-        # try-except when there exist "compesation"
+        # try-except when there exist "compensation"
         job_function = ''
         function_xpath = '/html/body/main/section/div[2]/section[2]/ul/li[3]/span'
         if len(driver.find_elements_by_xpath(function_xpath)) != 0:
@@ -227,7 +227,7 @@ for keyword in keywords:
         functions.append(job_function)
         
         # Industries
-        # try-except when there exist "compesation"
+        # try-except when there exist "compensation"
         industry_type = ''
         industry_xpath = '/html/body/main/section/div[2]/section[2]/ul/li[4]/span'
             
