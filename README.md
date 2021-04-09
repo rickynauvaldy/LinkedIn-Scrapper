@@ -32,7 +32,15 @@ Pulling data from LinkedIn as the job recruitment platform using a scraping meth
 - open main.py and store keywords in the "keywords" variable in list (in this example: 'Senior Data Engineer', 'Data Engineer', 'Senior Data Scientist', 'Data Scientist', 'Senior Data Analyst',
 'Data Analyst', 'Senior Business Intelligence', 'Business Intelligence Analyst')
 - run main.py by executing "python main.py"
-- notebook.ipynb is available for exploring in Jupyter Notebook
+- notebook_scrap.ipynb is available for exploring scrapping process in Jupyter Notebook
+- notebook_explore.ipynb is available for exploring scrapped data in Jupyter Notebook
+
+## Implications on Exploration
+Based on data scrapped in 8th of April 2021,
+- Most job scrapped are posted around 1-2 week
+- Data Analyst keyword has the most scrapped job post, followed by Data Engineer
+- Most job scrapped are looking for Associate and Entry Level Seniority
+- Most job scrapped are applied less than 50 applicants
 
 ## Author note
 - Adopted from https://amandeepsaluja.com/extracting-job-information-from-linkedin-jobs-using-beautifulsoup-and-selenium/
