@@ -53,6 +53,7 @@ Pulling data from LinkedIn as the job recruitment platform using a scraping meth
 ## Implications on Exploration
 Based on data scrapped in 8th of April 2021,
 - Most job scrapped are posted around 1-2 week ago
+![Alt text](img/day_past.png?raw=true "Title")
 - Data Analyst keyword has the most scrapped job post, followed by Data Engineer
 - Most job scrapped are looking for Associate and Entry Level Seniority
 - Most job scrapped are applied less than 50 applicants
