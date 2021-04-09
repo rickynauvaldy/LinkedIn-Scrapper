@@ -32,9 +32,9 @@ Pulling data from LinkedIn as the job recruitment platform using a scraping meth
 5. for each result, get all the required features (company name, job posting time, number of applicants, seniority level, industry, description, employment type, job function)
 6. in some cases, there exist different formatting that needed to be handled differently
 7. create a dataframe for the keyword
-8. export to csv per keyword
+8. export to CSV per keyword
 9. concat with the all keywords data dataframe
-- export to cssv all keywords
+- export to CSV for all keywords
 
 ## Limitation
 - Tested only when LinkedIn is not logged in
