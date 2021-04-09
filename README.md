@@ -53,10 +53,13 @@ Pulling data from LinkedIn as the job recruitment platform using a scraping meth
 ## Implications on Exploration
 Based on data scrapped in 8th of April 2021,
 - Most job scrapped are posted around 1-2 week ago
-![Alt text](img/day_past.png?raw=true "Title")
+![Alt text](img/day_past.png?raw=true "Day Past")
 - Data Analyst keyword has the most scrapped job post, followed by Data Engineer
+![Alt text](img/keyword.png?raw=true "Keyword")
 - Most job scrapped are looking for Associate and Entry Level Seniority
+![Alt text](img/seniority.png?raw=true "Seniority")
 - Most job scrapped are applied less than 50 applicants
+![Alt text](img/applicants.png?raw=true "Applicants")
 
 ## Author note
 - Adopted from https://amandeepsaluja.com/extracting-job-information-from-linkedin-jobs-using-beautifulsoup-and-selenium/
