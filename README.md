@@ -58,7 +58,7 @@ Based on data scrapped in 8th of April 2021,
 ![Alt text](img/keyword.png?raw=true "Keyword")
 - Most job scrapped are looking for Associate and Entry Level Seniority
 ![Alt text](img/seniority.png?raw=true "Seniority")
-- Most job scrapped are applied less than 50 applicants
+- Most job scrapped are applied by less than 50 applicants
 ![Alt text](img/applicants.png?raw=true "Applicants")
 
 ## Author note
